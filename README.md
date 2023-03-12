@@ -1,4 +1,4 @@
-[![Sbaiden94](https://circleci.com/gh/Sbaiden94/udacity-project-4.svg? style=svg)](https://app.circleci.com/pipelines/github/Sbaiden94/udacity-project-4)
+[![Sbaiden94](https://circleci.com/gh/Sbaiden94/udacity-project-4.svg?style=svg)](https://app.circleci.com/pipelines/github/Sbaiden94/udacity-project-4)
 
 ## Project Overview
 
