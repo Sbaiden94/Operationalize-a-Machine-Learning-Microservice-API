@@ -45,6 +45,25 @@ source .devops/bin/activate
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
+1. Download and install Docker for your operating system by following the official Docker installation guide.
+2. Once Docker is installed, verify that it is running by running the following command in your terminal:
+```bash
+docker --version
+```
+3. Optionally, create a Docker Hub account to store and share Docker images.
+
 * Setup and Configure Kubernetes locally
+1. Install Minikube
+2. Start the Kubernetes cluster by running minikube start.
+3. Verify that the cluster is running by running `kubectl cluster-info`
+
 * Create Flask app in Container
+1. Create a new directory for your Flask app and navigate to it in your terminal.
+2. Create a new file called app.py and add code to it.
+3. Create a new file called Dockerfile and add code to it.
+4. Create a requirements.txt file.
+5. Build the Docker image by runningdocker build --tag=microproject .
+
 * Run via kubectl
+1. Verify that the Docker image was created by running docker images.
+2. Deploy the Docker container to the Kubernetes cluster by running kubectl run microproject --image=sammyb94/mircroproject:v1.0.0 --port=80 --labels app=microproject
